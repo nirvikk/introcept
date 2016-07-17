@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace Introcept\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -13,7 +13,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        $this->publishes([
+        'vendor/twbs/bootstrap/' => public_path('vendor/bootstrap'),
+    ], 'public');
     }
 
     /**
