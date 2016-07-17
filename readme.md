@@ -1,3 +1,27 @@
+#Task assigned by Introcept
+
+##Description
+This task was assigned to me by introcept.co and I have worked on this project with the help of PHP Laravel Framework. The task is to build a part of client section of a system.
+####Things to do: (as assigned my Introcept)
+
+    Create a form to get
+        Name
+        Gender
+        Phone
+        Email
+        Address
+        Nationality
+        Date of birth
+        Education background
+        Preferred mode of contact (select one from email, phone, none)
+    You can be creative with the fields.
+    Add relevant validation to the form both frontend (js) and backend (php)
+    After form submission, if fields are valid save to a csv file
+    Show all clients pulled in from the CSV as another page
+
+
+
+
 # Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
