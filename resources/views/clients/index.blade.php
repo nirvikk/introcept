@@ -44,6 +44,6 @@
                 </tbody>
             </table>
         @endif
-        <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+        <a href="{{ route('clients.create') }}" class="glyphicon glyphicon-plus" aria-hidden="true"></a>
     </div>
 @stop

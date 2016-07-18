@@ -14,7 +14,7 @@
             </ul>
         </div>
     @endif
-    <div class="well">
+    <div class="jumbotron">
         {!! Form::open(['route' => 'clients.store', 'method' => 'post']) !!}
         <div class="form-group">
             {!! Form::label('name', 'Name', ['class' => 'control-label']) !!}

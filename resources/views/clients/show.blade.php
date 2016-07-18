@@ -1,51 +1,51 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="well">
-        <h1>View the detail.</h1>
+    <div class="jumbotron">
+        <h3>Client detail from exported CSV <span class="glyphicon glyphicon-list-alt"></span></h3>
         <table>
             <tr>
-                <td>Name:</td>
+                <td><strong><span class="glyphicon glyphicon-user"></span> Name:</strong></td>
                 <td>{{ $details['Name'] }}</td>
             </tr>
 
             <tr>
-                <td>Gender:</td>
+                <td><strong>Gender:</strong></td>
                 <td>{{ $details['Gender'] }}</td>
             </tr>
 
             <tr>
-                <td>Phone:</td>
+                <td><strong>Phone:</strong></td>
                 <td>{{ $details['Phone'] }}</td>
             </tr>
 
             <tr>
-                <td>Email:</td>
+                <td><strong>Email:</strong></td>
                 <td>{{ $details['Email'] }}</td>
             </tr>
 
             <tr>
-                <td>Address:</td>
+                <td><strong>Address:</strong></td>
                 <td>{{ $details['Address'] }}</td>
             </tr>
 
             <tr>
-                <td>Nationality:</td>
+                <td><strong>Nationality:</strong></td>
                 <td>{{ $details['Nationality'] }}</td>
             </tr>
 
             <tr>
-                <td>Date of Birth:</td>
+                <td><strong>Date of Birth:</strong></td>
                 <td>{{ $details['Date Of Birth'] }}</td>
             </tr>
 
             <tr>
-                <td>Educational Background:</td>
+                <td><strong>Educational Background:</strong></td>
                 <td>{{ $details['Educational Background'] }}</td>
             </tr>
 
             <tr>
-                <td>Preferred Mode of Contact:</td>
+                <td><strong>Preferred Mode of Contact:</strong></td>
                 <td>{{ $details['Preferred Mode of Contact'] }}</td>
             </tr>
 
