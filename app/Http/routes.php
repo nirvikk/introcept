@@ -11,7 +11,5 @@
 |
 */
 
-Route::get('/', function () {
-    return view('clients/index');
-});
+Route::get('/', 'ClientsController@index');
 Route::resource('clients', 'ClientsController');
