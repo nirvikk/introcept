@@ -20,7 +20,13 @@ This task was assigned to me by introcept.co and I have worked on this project w
     Show all clients pulled in from the CSV as another page
 
 
+## PHP Packages used (Composer/Packagist)
+1. Form building: laravelcollective/html
+2. Front End Design (bootstrap): twbs/bootstrap 
+3. CSV Service: league/csv 
 
+###Testing
+The tests have been carried out on this application using 'phpunit'
 
 # Laravel PHP Framework
 
